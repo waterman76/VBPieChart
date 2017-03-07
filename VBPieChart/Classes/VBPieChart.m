@@ -400,9 +400,9 @@ static __inline__ CGFloat CGPointDistanceBetweenTwoPoints(CGPoint point1, CGPoin
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    UITouch *touch = [touches anyObject];
-    _touchBegan = [touch locationInView:self];
-    _hitLayer = (VBPiePiece*)[self layerForTouch:touch];
+//    UITouch *touch = [touches anyObject];
+//    _touchBegan = [touch locationInView:self];
+//    _hitLayer = (VBPiePiece*)[self layerForTouch:touch];
 }
 
 
